@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>AKAN NAMES</title>
+  <link href="css/styles.css" rel="stylesheet" text="text/css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="js/scripts.js"></script>
+</head>
+<body>
+  <h1>AKAN NAMES</h1>
+  <div class="sidebar">
+  <p>A web application that takes a user's birthday and calculates the day of the week they were born and then depending on their gender outputs their Akan Name.Akan names are derived from Ghananian culture.</p>
+      <div class="card">
+      <div class="col-md-6">
+        <div class="card title">
+        <div class="female">
+        <h4>Female:</h4>
+        <ul>
+            <li>Sunday:Akosua</li>
+            <li>Monday:Adwoa</li>
+            <li>Tuesday:Abenaa</li>
+            <li>Wednesday:Akua</li>
+            <li>Thursday:Yaa</li>
+            <li>Friday:Afua</li>
+            <li>Saturday:Ama</li>
+            </ul>
+       </div>
+       <div class="card-footer"></div>
+       <div class="col-md-6">
+         <div class="card title">
+          <div class="male">
+            <h4>Male:</h4>
+            <ul>
+          <li>Sunday:Kwasi</li>
+          <li>Monday:Kwadwo</li>
+          <li>Tuesday:Kwabena</li>
+          <li>Wednesday:Kwaku</li>
+          <li>Thursday:Yaw</li>
+          <li>Friday:Kofi</li>
+          <li>Saturday:Kwame</li>
+          </ul>
+    </div>
+    <div class="card-footer"></div>
+    <div class="col-md-6 akan form">
+      <h4>Please Enter Your Birthdate Here:</h4>
+      <div class="add stylist-form">
+        <form>
+          <div class="form-group mb15">
+            <label class="label">Birthday:</label>
+          </div>
+        </form>
+              <div class="js">
+              <form onsubmit="return false">
+                <label for ="personName">Name:</label><input type="text" id="personName" name="name"/><br>
+                <label for ="personBirthday">Birthday:</label><input type ="date" id="personBirthday" name="name"/><br>  
+                <label for="male"> <input name="gender" type="radio" id="male">Male</label>
+                <label for="female"> <input name="gender" type="radio" id="female">Female</label>
+<input type ="submit" onclick ="getAkanName()" value="submit">
+<p id ="output"></p>
+
+  </body>
+  </html>

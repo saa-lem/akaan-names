@@ -1,0 +1,28 @@
+body {
+  background-image: url("images/background.jpeg");
+}
+h1{
+float: left;
+text-align: left;
+text-decoration-color: darkred;
+text-size-adjust:20%;
+background-color:blanchedalmond;
+}
+p{
+  font-style: italic;
+  text-align: left;
+  text-overflow: clip;
+  border-radius: 20%;
+}
+.sidebar{
+  float:left;
+  border-radius: 12%;
+  padding:10px;
+}
+.card{
+  font-size: smaller;
+  background-color:green;
+}
+.Male{
+  text-size-adjust:715%;
+}
